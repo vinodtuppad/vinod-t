@@ -1,0 +1,45 @@
+Data types in Java===Data types specifies the different sizes and vallues that can be stored in the variable.
+These are two types of data types 1. premitive data types and 2. non premitive data types.
+premitive datatypes includes byte, int, char, double,float,boolean,short,long.
+non premitive datatypes includes classes, interfaces and arrays.
+
+package corejava_topics.datatypes;
+
+public class DataTypesExm {
+	
+	int intNum=23456788;
+	short shortNum=657;
+	char charA='A';
+	long longNum=2678897765l;
+	float floatNum=6787.0f;
+	double doubleNum=676549.0d;
+	boolean booleanflag=true;
+	byte byteNum=87;
+	DataTypesExm obj;
+
+	public static void main(String[] args) {
+    
+	DataTypesExm obj1 = new DataTypesExm();
+	System.out.println("Int Number : " +  obj1.intNum);
+	System.out.println("Short Number : " + obj1.shortNum);
+	System.out.println("Character value : " + obj1.charA);
+	System.out.println("Long Number : " + obj1.longNum);
+	System.out.println("Double Number : " + obj1.doubleNum);
+	System.out.println("Float Number : " + obj1.floatNum);
+	System.out.println("Byte Number : " + obj1.byteNum);
+	System.out.println("Boolean Value : " + obj1.booleanflag);
+	System.out.println("User difined Data type : " + obj1.obj);
+	}
+}
+Mothods IN JAVA******
+A method in java is a way to perform some task similarly the method in java is a collection of instruction that perform a specific task.
+we write a method once and use it many times we do not required to write code again and again the method is executed only when we call or invoke it.
+The method declaration provides information about method, attributes, visiblity, returntype, methodname and arguments.
+Syntax====
+public_datatype_changepin(int pin num);
+public void set account_num(long acc_num);
+Every method has a method signature. it is a part of method declaration. It includes the method name parameteres list access specifier is the all type of method.
+
+
+
+
